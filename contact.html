@@ -4,55 +4,55 @@
 <head>
   <meta charset="UTF-8">
   <title>Basic Porfolio-Contact Page</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-    <body>
+    <!-- Site Header -->
+    <header>
+        <!-- h1: To put in the navigation bar-->
+        <nav>
+            <ul>
+              <li> 
+                <!-- link one -->
+                <a href="#about"><a href="index.html">About</a> 
+              </li>
+              <li>
+                <!-- link two -->
+                 <a href="#portfolio"><a href="portfolio.html">Portfolio</a>
+              </li>
+              <li>
+                <!-- link three -->
+                <a href="#contact">Contact</a>
+              </li>
+              
+            </ul>
+          </nav>
+      </header>
 
-        <!-- Site Header -->
-        <header>
-          <!-- h1: To list my own name-->
-          <h1>Contact</h1>
-        </header>
-  
-        <section>
-            <nav>
-                <ul>
-                  <li> 
-                    <!-- link one -->
-                    <a href="#about">About</a>
-                  </li>
-                  <li>
-                    <!-- link two -->
-                     <a href="#portfolio">Portfolio</a>
-                  </li>
-                  <li>
-                    <!-- link three -->
-                    <a href="#contact">Contact</a>
-                  </li>
-                  
-                </ul>
-              </nav>
-        </section>
+      <h1>
+          <section>Ada Wan
+            </section>
+        </h1>
     
-        <div>
+        <div id="form">
           <!-- h2: This is where the form input starts -->
-          <h2>Fill in your information below and I will contact you!</h2>
+          <h2 id="contact-msg">Fill in your information below and I will contact you!</h2>
 
           <form>
             Your Full Name:<br>
             <input type="text">
-            <br>
+          </br>
             Your Email Address:<br>
             <input type="text">
-            <br>
+          </br>
             Message:<br>
-            <input type="text">
-            <br>
+            <input type="free-form">
+          </br>
           </form> 
           
-          <button type="button" onclick="alert('Thanks for your interest.  I will be in touch very soon!')">Submit!</button>
+          <button type="button" onclick="alert('Thanks for your interest.  I will be in touch very soon!')">Submit</button>
         
           
           </div>
