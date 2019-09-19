@@ -151,18 +151,18 @@ input[type=free-form], select {
   resize: none;
 }
 
-  button[type=button], select {
-    background-color: #4aaaa5;
-    border: none;
-    color: white;
-    padding: 10px 26px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+button[type=button], select {
+  background-color: #4aaaa5;
+  border: none;
+  color: white;
+  padding: 10px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
 
 
   /**The below section lists CSS for the Portfolio Page  **/
@@ -174,10 +174,7 @@ input[type=free-form], select {
   color: #777777;
   margin-right: 6em;
   margin-left: 170px;
-  border-top: 1.5px solid #dddddd;
-  border-bottom: 1.5px solid #dddddd;
-  border-left: 1.5px solid #dddddd;
-  border-right: 1.5px solid #dddddd;
+  border: 1.5px solid #dddddd;
   padding-left: 25px;
   padding-right: 25px;
   height:  550px;
