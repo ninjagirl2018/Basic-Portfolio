@@ -2,18 +2,14 @@
  This will be the stylesheet for all 3 html pages of the Portfolio Assignment since the page styles are relatively similar
  **/
 
-/**  this is what's left to do:
-
-1. Fix the Alignment of the Copyright in the footer
-2. Make sure the width of the entire page is correct
-3. Add vertical lines between the links
-**/
+ /**The below section lists CSS common to all 3 pages  **/
 
 body {
   padding: 0;
-  margin: 0 75 0 25;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url("../hotel-wallpaper.png");
+  width: auto;
+  color: #ffffff;
 }
 
 header {
@@ -24,7 +20,7 @@ header {
 li {
   display: inline;
   margin-right: 30px;
-  padding-right:  25px;
+  padding-right: 25px;
 }
 
 nav {
@@ -37,55 +33,86 @@ a {
 }
 
 h1 {
-  background-color: white;
-  float: top;
+  background-color: #ffffff;
   border-top: #cccccc 2px solid;
   border-bottom: #cccccc 2px solid;
   height: 75px;
   font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+hr {
+    border: 1px solid #dddddd;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #4aaaa5;
+}
+
+footer {
+  height:  55px;
+  background-color: #666666;
+  margin-top: 50px;
+  padding-top: 10px;
+  border-top: 8px solid #4aaaa5; 
+  font-size: 10px;
+}
+
+#footer-text {
+  text-justify: center;
+}
+
+
+
+/**The below section lists CSS for Index/About Page  **/
 
 section {
   background-color: #4aaaa5;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 180px;
+  width: 200px;
   height: 35px;
   border: 20px #cccccc;
-  color: #ffffff;
   margin-left: 6em;
   font-size: 28px; 
   text-align: center;
 }
 
-#contact-msg {
-  color: #4aaaa5;
-  font-size: 24px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-br {
-  padding-top: 5px;
-  padding-bottom: 5px;
+#bio {
+  width: 175px;
+  height: 200px;
+  background-color: #ffffff;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  border: 2px;
+  float: left;
 }
 
 #intro {
   background-color: #ffffff;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #4aaaa5;
   margin-right: 6em;
   margin-left: 170px;
-  border-top: 1.5px solid #dddddd;
-  border-bottom: 1.5px solid #dddddd;
-  border-left: 1.5px solid #dddddd;
-  border-right: 1.5px solid #dddddd;
+  border: 1.5px solid #dddddd;
   padding-left: 25px;
   padding-right: 25px;
-  height:  500px;
+  padding-bottom: 25px;
+  height: 450px;
   width: 960px;
 }
+
+p{
+  border-left: 20px;
+  margin-right:  100px;
+  text-align: justify;
+  color: #82807d;
+  line-height: .75cm;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/**The below section lists CSS for the Contact Page  **/
 
 #form{
   background-color:#ffffff;
@@ -94,12 +121,10 @@ br {
   color: #777777;
   margin-right: 6em;
   margin-left: 170px;
-  border-top: 1.5px solid #dddddd;
-  border-bottom: 1.5px solid #dddddd;
-  border-left: 1.5px solid #dddddd;
-  border-right: 1.5px solid #dddddd;
-  padding-left: 25px;
-  padding-right: 25px;
+  border: 1.5px solid #dddddd;
+  padding: 25px;
+  line-height: 1cm;
+  padding-top: 0px;
   height:  500px;
   width: 960px;
 }
@@ -109,7 +134,7 @@ input[type=text], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -120,7 +145,7 @@ input[type=free-form], select {
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid #cccccc;
   border-radius: 4px;
   box-sizing: border-box;
   resize: none;
@@ -139,29 +164,38 @@ input[type=free-form], select {
     cursor: pointer;
   }
 
-img {
-  width: 175px;
-  height: 200px;
-  background-color: #ffffff;
-  padding-top: 0px;
-  border-bottom: 2px;
-  border-left: 2px;
-  border-right: 2px;
-  float: left;
+
+  /**The below section lists CSS for the Portfolio Page  **/
+
+
+#Gallery{
+  background-color:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #777777;
+  margin-right: 6em;
+  margin-left: 170px;
+  border-top: 1.5px solid #dddddd;
+  border-bottom: 1.5px solid #dddddd;
+  border-left: 1.5px solid #dddddd;
+  border-right: 1.5px solid #dddddd;
+  padding-left: 25px;
+  padding-right: 25px;
+  height:  550px;
+  width: 960px;
 }
 
-p{
-  margin-left:  250px;
-  margin-right:  100px;
-  text-justify: distribute-all-lines;
-  color: #82807d;
+
+#Placeholder-1, #Placeholder-2, #Placeholder-3 {
+  width: 225px;
+  height: 175px;
+  padding: 30px;
+  margin-left: 25px;
 }
 
-footer{
-  height:  55px;
-  background-color: #666666;
-  margin-top: 50px;
-  padding-top: 10px;
-  border-top: 7.5px solid #4aaaa5; 
-  text-align: center;
+#Placeholder-4, #Placeholder-5 {
+  width: 225px;
+  height: 175px;
+  padding: 30px;
+  margin-left: 125px;
 }
