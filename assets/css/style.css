@@ -61,7 +61,7 @@ footer {
 }
 
 #footer-text {
-  text-justify: center;
+  text-align: center;
 }
 
 
@@ -181,83 +181,38 @@ button[type=button], select {
   width: 960px;
 }
 
-#Placeholder-1, #Placeholder-2, #Placeholder-3 {
-  width: 225px;
+.Project-Tile {
+  float: left;
+  width: 200px;
   height: 175px;
-  padding: 30px;
-  margin-left: 25px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  position: relative;
 }
 
-#Placeholder-4, #Placeholder-5 {
-  width: 225px;
-  height: 175px;
-  padding: 30px;
-  margin-left: 125px;
-}
-
-p1 {
-  color: white;
+.Labels {
+  position: absolute; 
   font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  height: 32px;
+  top: 125px;
+  width: inherit;
+  background-color: #4aaaa5;
+  color: #ffffff;
   font-size: 16px;
-  padding-left: 67px;
+  text-align: center;
+  
+}
+img {
+  width: inherit;
 }
 
-#Baked-Bread { 
-  width: 225px;
-  height:  45px;
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0;
-  position: absolute;
-  top: 48%;
-  left: 26.2%;
-  transform: translate(-50%, -50%) 
+.Row-1 {
+  padding-left:  87px;
 }
 
-#Alley-Cat { 
-  width: 225px;
-  height:  45px;
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0;
-  position: absolute;
-  top: 48%;
-  left: 48.1%;
-  transform: translate(-50%, -50%) 
-}
-
-#Big-Game-Nap { 
-  width: 225px;
-  height:  45px;
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0;
-  position: absolute;
-  top: 48%;
-  left: 70.1%;
-  transform: translate(-50%, -50%) 
-}
-
-#Fall-Colours { 
-  width: 225px;
-  height:  45px;
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0;
-  position: absolute;
-  top: 78%;
-  left: 33.15%;
-  transform: translate(-50%, -50%) 
-}
-
-#Dare-Devil { 
-  width: 225px;
-  height:  45px;
-  background-color: #4aaaa5;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 0;
-  position: absolute;
-  top: 78%;
-  left: 62.2%;
-  transform: translate(-50%, -50%) 
+.Row-2 {
+  padding-left: 220px;
 }
